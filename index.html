@@ -5,13 +5,21 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="Damaris Foundation for Premature Infants — supporting premature infants and families in Nigeria.">
 <meta name="theme-color" content="#cbb6dc">
+
 <title>Damaris Foundation for Premature Infants</title>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+<!-- =========================
+     WELCOME SCREEN
+========================= -->
 
 <div class="welcome-screen" id="welcomeScreen">
   <div class="welcome-content">
@@ -23,11 +31,16 @@
     >
 
     <h1>Damaris Foundation</h1>
-    <p class="welcome-subtitle">For Premature Infants</p>
+
+    <p class="welcome-subtitle">
+      For Premature Infants
+    </p>
 
     <div class="welcome-line"></div>
 
-    <p class="welcome-motto">Small beginnings, strong futures.</p>
+    <p class="welcome-motto">
+      Small beginnings, strong futures.
+    </p>
 
     <button class="welcome-enter" id="welcomeEnter">
       Enter Website <span>→</span>
@@ -38,60 +51,787 @@
 
 <div class="progress" id="progress"></div>
 <div class="cursor-glow" id="cursorGlow"></div>
+
+
+<!-- =========================
+     HEADER / NAVIGATION
+========================= -->
+
 <header class="site-header" id="top">
-  <a class="brand" href="#home" aria-label="Damaris Foundation home"><span class="brand-mark"><span>D</span></span><span><strong>Damaris Foundation</strong><small>for Premature Infants</small></span></a>
-  <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+
+  <a class="brand" href="index.html" aria-label="Damaris Foundation home">
+
+    <span class="brand-mark">
+      <span>D</span>
+    </span>
+
+    <span>
+      <strong>Damaris Foundation</strong>
+      <small>for Premature Infants</small>
+    </span>
+
+  </a>
+
+  <button
+    class="menu-toggle"
+    aria-label="Open navigation"
+    aria-expanded="false"
+  >
+    <span></span>
+    <span></span>
+  </button>
+
   <nav class="nav" aria-label="Main navigation">
-    <a href="#about">About</a><a href="#mission">Mission &amp; Vision</a><a href="#objectives">Objectives</a><a href="#team">Our Team</a><a href="#support">Support</a><a href="#contact">Contact</a><a class="nav-donate" href="#donate">Donate <span>↗</span></a>
+
+    <a href="about.html">About</a>
+
+    <a href="mission.html">Mission &amp; Vision</a>
+
+    <a href="objectives.html">Objectives</a>
+
+    <a href="team.html">Our Team</a>
+
+    <a href="support.html">Support</a>
+
+    <a href="contact.html">Contact</a>
+
+    <a class="nav-donate" href="support.html#donate">
+      Donate <span>↗</span>
+    </a>
+
   </nav>
+
 </header>
+
+
+<!-- =========================
+     HOME PAGE
+========================= -->
+
 <main>
+
 <section class="hero" id="home">
-  <div class="hero-noise"></div><div class="hero-orb orb-one"></div><div class="hero-orb orb-two"></div>
+
+  <div class="hero-noise"></div>
+
+  <div class="hero-orb orb-one"></div>
+  <div class="hero-orb orb-two"></div>
+
+
   <div class="hero-copy reveal">
-    <div class="eyebrow-pill"><span></span>Damaris Foundation for Premature Infants</div>
-    <h1>Small beginnings,<br><em>strong futures.</em></h1>
-    <p class="hero-text">Through rapid emergency intervention, critical resource coordination, and professional advocacy, the Damaris Foundation serves as a vital lifeline for the most fragile infants.</p>
-    <div class="scripture-card"><div class="verse-mark">“</div><div><span>JOB 33:4</span><p>“The Spirit of God has made me; the breath of the Almighty gives me life.”</p></div></div>
-    <div class="hero-actions"><a class="btn primary magnetic" href="#donate">Support the Foundation <span>↗</span></a><a class="btn ghost" href="#support">Get support</a></div>
-    <div class="hero-meta"><span><i></i>Ibadan, Nigeria</span><span>Compassion · Urgency · Equity</span></div>
+
+    <div class="eyebrow-pill">
+      <span></span>
+      Damaris Foundation for Premature Infants
+    </div>
+
+    <h1>
+      Small beginnings,<br>
+      <em>strong futures.</em>
+    </h1>
+
+    <p class="hero-text">
+      Through rapid emergency intervention, critical resource coordination,
+      and professional advocacy, the Damaris Foundation serves as a vital
+      lifeline for the most fragile infants.
+    </p>
+
+
+    <div class="scripture-card">
+
+      <div class="verse-mark">“</div>
+
+      <div>
+
+        <span>JOB 33:4</span>
+
+        <p>
+          “The Spirit of God has made me; the breath of the Almighty gives me life.”
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div class="hero-actions">
+
+      <a
+        class="btn primary magnetic"
+        href="support.html"
+      >
+        Support the Foundation <span>↗</span>
+      </a>
+
+      <a
+        class="btn ghost"
+        href="about.html"
+      >
+        Discover our work
+      </a>
+
+    </div>
+
+
+    <div class="hero-meta">
+
+      <span>
+        <i></i>
+        Ibadan, Nigeria
+      </span>
+
+      <span>
+        Compassion · Urgency · Equity
+      </span>
+
+    </div>
+
   </div>
+
+
+  <!-- HERO LOGO -->
+
   <div class="hero-stage reveal delay-2">
-    <div class="stage-ring ring-one"></div><div class="stage-ring ring-two"></div>
-    <div class="stage-card main-stage-card"><img src="file_00000000c2e4821084c634d9afd5cbf8.png"alt="Damaris Foundation logo"><div class="stage-overlay"></div><div class="stage-caption"><span>Small beginnings, strong futures</span><strong>Damaris Foundation</strong></div></div>
-    <div class="floating-card floating-top"><span class="mini-icon">♡</span><div><small>OUR BELIEF</small><strong>A premature arrival<br>should never mean<br>an early departure.</strong></div></div>
-    <div class="floating-card floating-bottom"><span class="pulse-dot"></span><div><small>EMERGENCY SUPPORT</small><strong>Call or WhatsApp</strong><a href="tel:+2348077768212">08077768212</a></div></div>
+
+    <div class="stage-ring ring-one"></div>
+    <div class="stage-ring ring-two"></div>
+
+    <div class="stage-card main-stage-card">
+
+      <img
+        src="file_00000000c2e4821084c634d9afd5cbf8.png"
+        alt="Damaris Foundation for Premature Infants logo"
+      >
+
+      <div class="stage-overlay"></div>
+
+      <div class="stage-caption">
+
+        <span>
+          Small beginnings, strong futures
+        </span>
+
+        <strong>
+          Damaris Foundation
+        </strong>
+
+      </div>
+
+    </div>
+
+
+    <div class="floating-card floating-top">
+
+      <span class="mini-icon">♡</span>
+
+      <div>
+
+        <small>OUR BELIEF</small>
+
+        <strong>
+          A premature arrival<br>
+          should never mean<br>
+          an early departure.
+        </strong>
+
+      </div>
+
+    </div>
+
+
+    <div class="floating-card floating-bottom">
+
+      <span class="pulse-dot"></span>
+
+      <div>
+
+        <small>EMERGENCY SUPPORT</small>
+
+        <strong>
+          Call or WhatsApp
+        </strong>
+
+        <a href="tel:+2348077768212">
+          08077768212
+        </a>
+
+      </div>
+
+    </div>
+
   </div>
-  <a class="scroll-cue" href="#about"><span>Scroll to explore</span><i>↓</i></a>
+
+
+  <a class="scroll-cue" href="#home-introduction">
+
+    <span>
+      Explore the Foundation
+    </span>
+
+    <i>↓</i>
+
+  </a>
+
 </section>
-<section class="trust-strip"><div><span>01</span>Compassion</div><div><span>02</span>Urgency</div><div><span>03</span>Equity</div><div><span>04</span>Collaboration</div><div><span>05</span>Accountability</div></section>
-<section class="section about-section" id="about">
-  <div class="section-kicker">WHO WE ARE <span></span></div><div class="about-heading"><h2>Protecting fragile lives with <em>compassion.</em></h2><div class="heading-note">A dedicated non-governmental organization based in Ibadan, Nigeria.</div></div>
-  <div class="about-layout"><div class="about-lead reveal"><p>The Damaris Foundation for Premature Infants is a dedicated non-governmental organization based in Ibadan, Nigeria, working tirelessly to reduce infant mortality and long-term disability caused by premature birth.</p><p>Our mission is deeply inspired by the truth of Job 33:4: “The Spirit of God has made me; the breath of the Almighty gives me life.” We believe that every premature baby fighting for their breath in a neonatal unit is a precious child with a divine purpose.</p></div><div class="about-side reveal delay-1"><div class="quote-line"></div><p>A premature arrival should never mean an early departure, and financial hardship should never stand in the way of a child’s right to breathe and survive.</p><div class="side-label">THE DAMARIS BELIEF</div></div></div>
-  <div class="about-bottom"><p>Through rapid emergency intervention, critical resource coordination, and professional advocacy, the Damaris Foundation serves as a vital lifeline—ensuring that the most fragile infants receive the support, dignity, and specialized care they need to grow strong and thrive.</p><a href="#mission" class="arrow-link">Discover our purpose <span>↗</span></a></div>
+
+
+<!-- =========================
+     TRUST STRIP
+========================= -->
+
+<section class="trust-strip">
+
+  <div>
+    <span>01</span>
+    Compassion
+  </div>
+
+  <div>
+    <span>02</span>
+    Urgency
+  </div>
+
+  <div>
+    <span>03</span>
+    Equity
+  </div>
+
+  <div>
+    <span>04</span>
+    Collaboration
+  </div>
+
+  <div>
+    <span>05</span>
+    Accountability
+  </div>
+
 </section>
-<section class="section purpose-section" id="mission">
-  <div class="section-kicker light">PURPOSE <span></span></div><div class="purpose-intro"><h2>Built around a clear<br><em>purpose.</em></h2><p>Our mission and vision guide the Foundation’s work for premature infants and their families.</p></div>
-  <div class="purpose-grid"><article class="purpose-card reveal"><div class="card-number">01</div><span>MISSION</span><h3>Protect and preserve lives.</h3><p>To monitor and reduce the rates of infant disability and death resulting from prematurity in Nigeria.</p><div class="expand-copy">To protect and preserve the lives of premature infants across Nigeria by combining professional advocacy with rapid, compassionate emergency intervention. We bridge the gap to critical neonatal care for indigent mothers, ensuring that every fragile life receives the resources, dignity, and medical support needed to thrive.</div></article><article class="purpose-card accent reveal delay-1"><div class="card-number">02</div><span>VISION</span><h3>A Nigeria where every fragile life has a chance.</h3><p>To become Nigeria’s leading support network for premature infants, transforming healthcare accessibility so that financial hardship never stands in the way of a child's survival.</p><div class="expand-copy">To build a Nigeria where no premature infant is lost or limited by a lack of resources, and where every mother has immediate access to life-saving neonatal care.</div></article></div>
+
+
+<!-- =========================
+     SHORT HOME INTRODUCTION
+========================= -->
+
+<section
+  class="section about-section"
+  id="home-introduction"
+>
+
+  <div class="section-kicker">
+    WHO WE ARE
+    <span></span>
+  </div>
+
+
+  <div class="about-heading">
+
+    <h2>
+      Protecting fragile lives with
+      <em>compassion.</em>
+    </h2>
+
+    <div class="heading-note">
+      A dedicated non-governmental organization based in Ibadan, Nigeria.
+    </div>
+
+  </div>
+
+
+  <div class="about-layout">
+
+    <div class="about-lead reveal">
+
+      <p>
+        The Damaris Foundation for Premature Infants is a dedicated
+        non-governmental organization based in Ibadan, Nigeria, working
+        tirelessly to reduce infant mortality and long-term disability
+        caused by premature birth.
+      </p>
+
+      <p>
+        Our mission is deeply inspired by the truth of Job 33:4:
+        “The Spirit of God has made me; the breath of the Almighty gives me life.”
+      </p>
+
+    </div>
+
+
+    <div class="about-side reveal delay-1">
+
+      <div class="quote-line"></div>
+
+      <p>
+        A premature arrival should never mean an early departure,
+        and financial hardship should never stand in the way of a
+        child’s right to breathe and survive.
+      </p>
+
+      <div class="side-label">
+        THE DAMARIS BELIEF
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="about-bottom">
+
+    <p>
+      Through rapid emergency intervention, critical resource coordination,
+      and professional advocacy, the Damaris Foundation serves as a vital
+      lifeline for the most fragile infants.
+    </p>
+
+    <a
+      href="about.html"
+      class="arrow-link"
+    >
+      Learn more about us
+      <span>↗</span>
+    </a>
+
+  </div>
+
 </section>
-<section class="section values-section" id="values"><div class="section-heading"><div class="section-kicker">WHAT GUIDES US <span></span></div><h2>Five principles.<br><em>One commitment.</em></h2></div><div class="value-grid">
-<button class="value-card reveal"><span>01</span><div><h3>Compassion</h3><p>Every fragile life and every worried mother deserves to be treated with deep empathy, dignity, and care during their most vulnerable moments.</p></div><b>↗</b></button>
-<button class="value-card reveal delay-1"><span>02</span><div><h3>Urgency</h3><p>Premature infants cannot wait; we act swiftly and decisively to provide rapid intervention and life-saving support when every second counts.</p></div><b>↗</b></button>
-<button class="value-card reveal delay-2"><span>03</span><div><h3>Equity</h3><p>No baby’s survival should depend on financial status; we are dedicated to closing the healthcare gap for indigent families.</p></div><b>↗</b></button>
-<button class="value-card reveal delay-3"><span>04</span><div><h3>Collaboration</h3><p>We build strong alliances with medical professionals, donors, and local communities to create a reliable safety net for premature infants.</p></div><b>↗</b></button>
-<button class="value-card reveal delay-4"><span>05</span><div><h3>Accountability</h3><p>We honor the trust placed in us by managing our resources transparently and maintaining the highest standards in our advocacy and care.</p></div><b>↗</b></button>
-</div></section>
-<section class="section objectives-section" id="objectives"><div class="objectives-head"><div><div class="section-kicker">WHAT WE SEEK TO ACHIEVE <span></span></div><h2>Our objectives</h2></div><p>Explore the Foundation’s 15 objectives.</p></div><div class="objective-progress"><span>15</span><div><i></i></div><small>objectives</small></div><div class="objectives" id="objectiveList"></div></section>
-<section class="section team-section" id="team"><div class="team-head"><div><div class="section-kicker">THE PEOPLE BEHIND THE WORK <span></span></div><h2>Our team</h2></div><p>Leadership and professionals supporting the Foundation’s work.</p></div><div class="team-feature"><div class="feature-image"><img src="barrister-olaniyi-george.jpg" alt="Barrister Olaniyi George"></div><div class="feature-copy"><span class="feature-number">01</span><small>CHAIRMAN OF THE BOARD OF GOVERNORS</small><h3>Barrister<br><em>Olaniyi George</em></h3><p>Chairman of the Board of Governors.</p></div></div><div class="team-grid" id="teamGrid"></div></section>
-<section class="section support-section" id="support"><div class="support-shell"><div class="support-glow"></div><div class="support-copy"><div class="section-kicker light">SUPPORT SERVICES <span></span></div><h2>When every<br><em>second matters.</em></h2><p>Offers assistance and guidance for indigent and otherwise needy mothers facing emergency situations with premature infants.</p></div><div class="support-action"><div class="emergency-badge"><i></i>Emergency contact</div><a class="big-phone" href="tel:+2348077768212">08077768212</a><div class="support-buttons"><a class="btn light magnetic" href="tel:+2348077768212">Call now <span>↗</span></a><a class="btn outline-light" href="https://wa.me/2348077768212" target="_blank" rel="noopener">WhatsApp <span>↗</span></a></div></div></div></section>
-<section class="section donate-section" id="donate"><div class="donate-card"><div class="donate-copy"><div class="section-kicker">SUPPORT THE FOUNDATION <span></span></div><h2>Support the work<br>when donations <em>open.</em></h2><p>Official donation account details will be added here when they are ready.</p></div><div class="coming-box"><span>DONATIONS</span><strong>COMING<br>SOON</strong><i>↗</i></div></div></section>
-<section class="section contact-section" id="contact"><div class="section-kicker">GET IN TOUCH <span></span></div><div class="contact-head"><h2>Connect with<br><em>Damaris Foundation.</em></h2><p>For general enquiries, programme contact and emergency support.</p></div><div class="contact-grid">
-<div class="contact-card"><span class="card-tag">ADDRESS &amp; TELEPHONE</span><h3>No. 15B, Water Reservoir Road,<br>Oluwonla, Basorun, Ibadan.</h3><a class="contact-link" href="tel:+234916000929">0916000929 <span>↗</span></a><a class="contact-link" href="mailto:thedamarisfoundation@gmail.com">thedamarisfoundation@gmail.com <span>↗</span></a></div>
-<div class="contact-card emergency-card"><div class="emergency-badge"><i></i>EMERGENCY</div><h3>Emergency support</h3><p>Call or WhatsApp the emergency contact.</p><a class="emergency-number" href="tel:+2348077768212">08077768212</a><div class="mini-actions"><a href="tel:+2348077768212">Call</a><a href="https://wa.me/2348077768212" target="_blank" rel="noopener">WhatsApp</a></div></div>
-<div class="contact-card"><span class="card-tag">PROGRAM DIRECTOR</span><h3>Glory Omomobi</h3><a class="contact-link" href="tel:+2348112609066">08112609066 <span>↗</span></a><span class="card-tag social-tag">FOLLOW &amp; CONNECT</span><div class="socials"><a href="https://www.instagram.com/damarispreemies" target="_blank" rel="noopener" aria-label="Instagram @damarispreemies">Instagram <small>@damarispreemies</small></a><a href="https://x.com/damarispreemies" target="_blank" rel="noopener" aria-label="X @damarispreemies">X <small>@damarispreemies</small></a><a href="https://www.facebook.com/share/1CWQGQF81W/" target="_blank" rel="noopener" aria-label="Facebook Damaris Foundation">Facebook <small>Damaris Foundation</small></a></div></div>
-</div></section>
+
+
+<!-- =========================
+     PURPOSE PREVIEW
+========================= -->
+
+<section class="section purpose-section">
+
+  <div class="section-kicker light">
+    OUR PURPOSE
+    <span></span>
+  </div>
+
+
+  <div class="purpose-intro">
+
+    <h2>
+      Built around a clear<br>
+      <em>purpose.</em>
+    </h2>
+
+    <p>
+      Our mission and vision guide the Foundation’s work for
+      premature infants and their families.
+    </p>
+
+  </div>
+
+
+  <div class="purpose-grid">
+
+    <article class="purpose-card reveal">
+
+      <div class="card-number">
+        01
+      </div>
+
+      <span>
+        MISSION
+      </span>
+
+      <h3>
+        Protect and preserve lives.
+      </h3>
+
+      <p>
+        To monitor and reduce the rates of infant disability and
+        death resulting from prematurity in Nigeria.
+      </p>
+
+      <a
+        href="mission.html"
+        class="arrow-link"
+      >
+        Read our mission
+        <span>↗</span>
+      </a>
+
+    </article>
+
+
+    <article class="purpose-card accent reveal delay-1">
+
+      <div class="card-number">
+        02
+      </div>
+
+      <span>
+        VISION
+      </span>
+
+      <h3>
+        A Nigeria where every fragile life has a chance.
+      </h3>
+
+      <p>
+        To become Nigeria’s leading support network for premature
+        infants, transforming healthcare accessibility so that
+        financial hardship never stands in the way of a child's survival.
+      </p>
+
+      <a
+        href="mission.html"
+        class="arrow-link"
+      >
+        Read our vision
+        <span>↗</span>
+      </a>
+
+    </article>
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     EXPLORE THE FOUNDATION
+========================= -->
+
+<section class="section values-section">
+
+  <div class="section-heading">
+
+    <div class="section-kicker">
+      EXPLORE
+      <span></span>
+    </div>
+
+    <h2>
+      Discover the Foundation<br>
+      <em>in more detail.</em>
+    </h2>
+
+  </div>
+
+
+  <div class="value-grid">
+
+    <a
+      class="value-card reveal"
+      href="about.html"
+    >
+
+      <span>01</span>
+
+      <div>
+
+        <h3>
+          About Us
+        </h3>
+
+        <p>
+          Learn more about the Damaris Foundation and the work
+          we are committed to.
+        </p>
+
+      </div>
+
+      <b>↗</b>
+
+    </a>
+
+
+    <a
+      class="value-card reveal delay-1"
+      href="objectives.html"
+    >
+
+      <span>02</span>
+
+      <div>
+
+        <h3>
+          Our Objectives
+        </h3>
+
+        <p>
+          Explore the Foundation’s 15 objectives and the areas
+          we seek to address.
+        </p>
+
+      </div>
+
+      <b>↗</b>
+
+    </a>
+
+
+    <a
+      class="value-card reveal delay-2"
+      href="team.html"
+    >
+
+      <span>03</span>
+
+      <div>
+
+        <h3>
+          Our Team
+        </h3>
+
+        <p>
+          Meet the people supporting and guiding the Foundation’s work.
+        </p>
+
+      </div>
+
+      <b>↗</b>
+
+    </a>
+
+
+    <a
+      class="value-card reveal delay-3"
+      href="support.html"
+    >
+
+      <span>04</span>
+
+      <div>
+
+        <h3>
+          Support
+        </h3>
+
+        <p>
+          Find emergency support information and learn about
+          ways to support the Foundation.
+        </p>
+
+      </div>
+
+      <b>↗</b>
+
+    </a>
+
+
+    <a
+      class="value-card reveal delay-4"
+      href="contact.html"
+    >
+
+      <span>05</span>
+
+      <div>
+
+        <h3>
+          Contact Us
+        </h3>
+
+        <p>
+          Get in touch with the Foundation for enquiries,
+          programme contact and emergency support.
+        </p>
+
+      </div>
+
+      <b>↗</b>
+
+    </a>
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     EMERGENCY SUPPORT PREVIEW
+========================= -->
+
+<section class="section support-section">
+
+  <div class="support-shell">
+
+    <div class="support-glow"></div>
+
+
+    <div class="support-copy">
+
+      <div class="section-kicker light">
+        EMERGENCY SUPPORT
+        <span></span>
+      </div>
+
+      <h2>
+        When every<br>
+        <em>second matters.</em>
+      </h2>
+
+      <p>
+        Offers assistance and guidance for indigent and otherwise
+        needy mothers facing emergency situations with premature infants.
+      </p>
+
+    </div>
+
+
+    <div class="support-action">
+
+      <div class="emergency-badge">
+        <i></i>
+        Emergency contact
+      </div>
+
+      <a
+        class="big-phone"
+        href="tel:+2348077768212"
+      >
+        08077768212
+      </a>
+
+
+      <div class="support-buttons">
+
+        <a
+          class="btn light magnetic"
+          href="tel:+2348077768212"
+        >
+          Call now <span>↗</span>
+        </a>
+
+        <a
+          class="btn outline-light"
+          href="https://wa.me/2348077768212"
+          target="_blank"
+          rel="noopener"
+        >
+          WhatsApp <span>↗</span>
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
 </main>
-<footer><div class="footer-top"><div class="brand footer-brand"><span class="brand-mark"><span>D</span></span><span><strong>Damaris Foundation</strong><small>for Premature Infants</small></span></div><p>“Small beginnings, strong futures”</p><a class="back-top" href="#top">Back to top ↑</a></div><div class="footer-bottom"><span>© <span id="year"></span> Damaris Foundation for Premature Infants.</span><span>Ibadan, Nigeria</span><div><a href="#about">About</a><a href="#team">Team</a><a href="#contact">Contact</a></div></div></footer>
-<div class="modal" id="teamModal" aria-hidden="true"><div class="modal-backdrop"></div><div class="modal-card"><button class="modal-close" aria-label="Close">×</button><div class="modal-image-wrap"><img id="modalImage" alt=""></div><div class="modal-copy"><span class="section-kicker" id="modalRole"></span><h2 id="modalName"></h2><p id="modalBio"></p></div></div></div>
+
+
+<footer>
+
+  <div class="footer-top">
+
+    <div class="brand footer-brand">
+
+      <span class="brand-mark">
+        <span>D</span>
+      </span>
+
+      <span>
+        <strong>Damaris Foundation</strong>
+        <small>for Premature Infants</small>
+      </span>
+
+    </div>
+
+    <p>
+      “Small beginnings, strong futures”
+    </p>
+
+    <a
+      class="back-top"
+      href="#top"
+    >
+      Back to top ↑
+    </a>
+
+  </div>
+
+
+  <div class="footer-bottom">
+
+    <span>
+      © <span id="year"></span>
+      Damaris Foundation for Premature Infants.
+    </span>
+
+    <span>
+      Ibadan, Nigeria
+    </span>
+
+    <div>
+
+      <a href="about.html">
+        About
+      </a>
+
+      <a href="team.html">
+        Team
+      </a>
+
+      <a href="contact.html">
+        Contact
+      </a>
+
+    </div>
+
+  </div>
+
+</footer>
+
+
+<!-- =========================
+     TEAM MODAL
+========================= -->
+
+<div
+  class="modal"
+  id="teamModal"
+  aria-hidden="true"
+>
+
+  <div class="modal-backdrop"></div>
+
+  <div class="modal-card">
+
+    <button
+      class="modal-close"
+      aria-label="Close"
+    >
+      ×
+    </button>
+
+    <div class="modal-image-wrap">
+      <img
+        id="modalImage"
+        alt=""
+      >
+    </div>
+
+    <div class="modal-copy">
+
+      <span
+        class="section-kicker"
+        id="modalRole"
+      ></span>
+
+      <h2 id="modalName"></h2>
+
+      <p id="modalBio"></p>
+
+    </div>
+
+  </div>
+
+</div>
+
+
 <script src="script.js"></script>
-</body></html>
+
+</body>
+</html>
