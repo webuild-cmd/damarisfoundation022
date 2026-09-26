@@ -265,3 +265,21 @@ document.querySelectorAll('.magnetic').forEach(el=>{
 ========================= */
 
 document.getElementById('year').textContent=new Date().getFullYear();
+/* =========================
+   WELCOME SCREEN
+========================= */
+
+const welcomeScreen = document.getElementById('welcomeScreen');
+const welcomeEnter = document.getElementById('welcomeEnter');
+
+if (welcomeScreen && welcomeEnter) {
+  welcomeEnter.addEventListener('click', () => {
+
+    welcomeScreen.classList.add('hide');
+
+    setTimeout(() => {
+      welcomeScreen.remove();
+    }, 900);
+
+  });
+}
