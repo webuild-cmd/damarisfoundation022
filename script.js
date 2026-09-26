@@ -406,23 +406,4 @@ if (welcomeScreen && welcomeEnter) {
   });
 
 }
-/* =========================
-   WELCOME SCREEN — ENTER TRANSITION
-========================= */
 
-.welcome-screen {
-  position: fixed;
-  inset: 0;
-  z-index: 9999;
-  opacity: 1;
-  visibility: visible;
-  transition:
-    opacity 0.8s ease,
-    visibility 0.8s ease;
-}
-
-.welcome-screen.hide {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
