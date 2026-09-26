@@ -310,3 +310,99 @@ if ('IntersectionObserver' in window) {
   });
 
 } else {
+
+  document.querySelectorAll('.reveal').forEach(el => {
+    el.classList.add('visible');
+  });
+
+}
+
+
+/* =========================
+   CURSOR GLOW
+========================= */
+
+const glow = document.getElementById('cursorGlow');
+
+if (
+  glow &&
+  window.matchMedia('(pointer:fine)').matches
+) {
+
+  window.addEventListener('pointermove', e => {
+
+    glow.style.left = e.clientX + 'px';
+    glow.style.top = e.clientY + 'px';
+
+  });
+
+}
+
+
+/* =========================
+   MAGNETIC BUTTONS
+========================= */
+
+document.querySelectorAll('.magnetic').forEach(el => {
+
+  el.addEventListener('pointermove', e => {
+
+    const r = el.getBoundingClientRect();
+
+    const x =
+      (e.clientX - r.left - r.width / 2) * 0.08;
+
+    const y =
+      (e.clientY - r.top - r.height / 2) * 0.08;
+
+    el.style.transform = `translate(${x}px, ${y}px)`;
+
+  });
+
+  el.addEventListener('pointerleave', () => {
+
+    el.style.transform = '';
+
+  });
+
+});
+
+
+/* =========================
+   FOOTER YEAR
+========================= */
+
+const year = document.getElementById('year');
+
+if (year) {
+  year.textContent = new Date().getFullYear();
+}
+
+
+/* =========================
+   WELCOME SCREEN
+========================= */
+
+const welcomeScreen =
+  document.getElementById('welcomeScreen');
+
+const welcomeEnter =
+  document.getElementById('welcomeEnter');
+
+if (welcomeScreen && welcomeEnter) {
+
+  welcomeEnter.addEventListener('click', () => {
+
+    welcomeScreen.classList.add('hide');
+
+    setTimeout(() => {
+
+      if (welcomeScreen) {
+        welcomeScreen.remove();
+      }
+
+    }, 900);
+
+  });
+
+}
