@@ -230,6 +230,7 @@ if (toggle && nav) {
 
     const open = nav.classList.toggle('open');
 
+    toggle.classList.toggle('open', open);
     toggle.setAttribute('aria-expanded', open);
 
   });
@@ -239,6 +240,7 @@ if (toggle && nav) {
     a.addEventListener('click', () => {
 
       nav.classList.remove('open');
+      toggle.classList.remove('open');
       toggle.setAttribute('aria-expanded', 'false');
 
     });
