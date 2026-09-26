@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="objectives-page">
 
   <!-- HEADER -->
   <header class="site-header">
@@ -26,19 +26,35 @@
         class="menu-toggle"
         aria-label="Open navigation"
         aria-expanded="false"
+        type="button"
       >
+        <span></span>
         <span></span>
         <span></span>
       </button>
 
-      <nav class="main-nav">
+      <nav class="nav">
+
         <a href="index.html">Home</a>
+
         <a href="about.html">About Us</a>
-        <a href="mission.html">Mission & Vision</a>
-        <a href="objectives.html" class="active">Objectives</a>
+
+        <a href="mission.html">Mission &amp; Vision</a>
+
+        <a href="objectives.html" class="active">
+          Objectives
+        </a>
+
         <a href="team.html">Our Team</a>
+
         <a href="support.html">Support</a>
+
         <a href="contact.html">Contact</a>
+
+        <a href="support.html" class="nav-donate">
+          Support the Foundation
+        </a>
+
       </nav>
 
     </div>
@@ -48,296 +64,343 @@
   <!-- MAIN -->
   <main>
 
-    <!-- HERO -->
-    <section class="page-hero">
+    <!-- PAGE HERO -->
+    <section class="page-hero objectives-hero">
+
       <div class="container">
 
-        <span class="eyebrow">WHAT WE AIM TO ACHIEVE</span>
+        <span class="eyebrow">
+          WHAT WE AIM TO ACHIEVE
+        </span>
 
-        <h1>Our Objectives</h1>
+        <h1>
+          Our Objectives
+        </h1>
 
         <p>
-          The proposed objects and objectives of the Damaris Foundation for
-          Premature Infants.
+          The proposed objects and objectives of the Damaris Foundation
+          for Premature Infants.
         </p>
 
       </div>
+
     </section>
 
 
     <!-- OBJECTIVES -->
-    <section class="content-section">
+    <section class="content-section objectives-section">
+
       <div class="container">
 
         <div class="section-heading reveal">
-          <span class="eyebrow">PROPOSED OBJECTS / OBJECTIVES OF THE FOUNDATION</span>
+
+          <span class="eyebrow">
+            PROPOSED OBJECTS / OBJECTIVES OF THE FOUNDATION
+          </span>
 
           <h2>
-            Our Objectives
+            15 ways we serve
           </h2>
 
           <p>
-            The Foundation's objectives are focused on awareness, advocacy,
-            support, education, collaboration and improved outcomes for
-            premature and vulnerable infants.
+            Explore the Foundation's objectives below. Select any objective
+            to discover its full purpose and scope.
           </p>
+
         </div>
 
 
+        <!-- INTERACTIVE OBJECTIVE LIST -->
         <div class="objectives-list">
 
           <!-- 01 -->
-          <article class="objective-item reveal">
-            <div class="objective-number">01</div>
+          <button
+            class="objective-item reveal"
+            type="button"
+            data-objective="1"
+          >
+            <span class="objective-number">01</span>
 
-            <div class="objective-content">
-              <p>
-                To promote awareness and understanding of prematurity and its
-                associated challenges, particularly among parents, caregivers,
-                healthcare workers and the general public in Nigeria and other
-                resource-limited settings.
-              </p>
-            </div>
-          </article>
+            <span class="objective-preview">
+              <strong>Awareness of Prematurity</strong>
+              <small>Understanding prematurity and its challenges</small>
+            </span>
+
+            <span class="objective-arrow">↗</span>
+          </button>
 
 
           <!-- 02 -->
-          <article class="objective-item reveal">
-            <div class="objective-number">02</div>
+          <button
+            class="objective-item reveal"
+            type="button"
+            data-objective="2"
+          >
+            <span class="objective-number">02</span>
 
-            <div class="objective-content">
-              <p>
-                To advocate for improved survival, quality of care and
-                long-term outcomes of premature and vulnerable newborns,
-                especially those in underserved and resource-constrained
-                communities.
-              </p>
-            </div>
-          </article>
+            <span class="objective-preview">
+              <strong>Improved Infant Outcomes</strong>
+              <small>Advocating for better survival and care</small>
+            </span>
+
+            <span class="objective-arrow">↗</span>
+          </button>
 
 
           <!-- 03 -->
-          <article class="objective-item reveal">
-            <div class="objective-number">03</div>
+          <button
+            class="objective-item reveal"
+            type="button"
+            data-objective="3"
+          >
+            <span class="objective-number">03</span>
 
-            <div class="objective-content">
-              <p>
-                To support healthcare facilities caring for premature and
-                vulnerable infants through the donation of appropriate
-                non-cash medical supplies, newborn-care materials, equipment
-                and other relevant resources, subject to applicable laws and
-                regulations.
-              </p>
-            </div>
-          </article>
+            <span class="objective-preview">
+              <strong>Supporting Healthcare Facilities</strong>
+              <small>Helping facilities access essential resources</small>
+            </span>
+
+            <span class="objective-arrow">↗</span>
+          </button>
 
 
           <!-- 04 -->
-          <article class="objective-item reveal">
-            <div class="objective-number">04</div>
+          <button
+            class="objective-item reveal"
+            type="button"
+            data-objective="4"
+          >
+            <span class="objective-number">04</span>
 
-            <div class="objective-content">
-              <p>
-                To organise and facilitate short courses, workshops, seminars
-                and other educational programmes for healthcare workers on the
-                recognition, management, monitoring and prevention of
-                complications associated with prematurity and newborn illness.
-              </p>
-            </div>
-          </article>
+            <span class="objective-preview">
+              <strong>Healthcare Worker Education</strong>
+              <small>Training and educational programmes</small>
+            </span>
+
+            <span class="objective-arrow">↗</span>
+          </button>
 
 
           <!-- 05 -->
-          <article class="objective-item reveal">
-            <div class="objective-number">05</div>
+          <button
+            class="objective-item reveal"
+            type="button"
+            data-objective="5"
+          >
+            <span class="objective-number">05</span>
 
-            <div class="objective-content">
-              <p>
-                To provide educational support and practical guidance to
-                parents, families and caregivers of premature infants,
-                including information on newborn care, nutrition, follow-up,
-                developmental needs and recognition of danger signs.
-              </p>
-            </div>
-          </article>
+            <span class="objective-preview">
+              <strong>Parent &amp; Family Guidance</strong>
+              <small>Education and practical support for caregivers</small>
+            </span>
+
+            <span class="objective-arrow">↗</span>
+          </button>
 
 
           <!-- 06 -->
-          <article class="objective-item reveal">
-            <div class="objective-number">06</div>
+          <button
+            class="objective-item reveal"
+            type="button"
+            data-objective="6"
+          >
+            <span class="objective-number">06</span>
 
-            <div class="objective-content">
-              <p>
-                To provide care and support packages and other appropriate
-                non-cash assistance to families of premature infants,
-                particularly families experiencing financial or social
-                hardship, in accordance with the Foundation’s charitable
-                purposes.
-              </p>
-            </div>
-          </article>
+            <span class="objective-preview">
+              <strong>Family Support Packages</strong>
+              <small>Support for families facing hardship</small>
+            </span>
+
+            <span class="objective-arrow">↗</span>
+          </button>
 
 
           <!-- 07 -->
-          <article class="objective-item reveal">
-            <div class="objective-number">07</div>
+          <button
+            class="objective-item reveal"
+            type="button"
+            data-objective="7"
+          >
+            <span class="objective-number">07</span>
 
-            <div class="objective-content">
-              <p>
-                To create public awareness of the short- and long-term
-                complications associated with prematurity, including
-                developmental, nutritional, neurological, respiratory, visual,
-                hearing and other potential complications, and to promote
-                appropriate follow-up and early intervention.
-              </p>
-            </div>
-          </article>
+            <span class="objective-preview">
+              <strong>Long-Term Prematurity Awareness</strong>
+              <small>Promoting follow-up and early intervention</small>
+            </span>
+
+            <span class="objective-arrow">↗</span>
+          </button>
 
 
           <!-- 08 -->
-          <article class="objective-item reveal">
-            <div class="objective-number">08</div>
+          <button
+            class="objective-item reveal"
+            type="button"
+            data-objective="8"
+          >
+            <span class="objective-number">08</span>
 
-            <div class="objective-content">
-              <p>
-                To promote early identification, referral and appropriate
-                management of premature and high-risk newborns by strengthening
-                awareness and linkages between families, communities and
-                relevant healthcare services.
-              </p>
-            </div>
-          </article>
+            <span class="objective-preview">
+              <strong>Early Identification &amp; Referral</strong>
+              <small>Connecting vulnerable newborns with care</small>
+            </span>
+
+            <span class="objective-arrow">↗</span>
+          </button>
 
 
           <!-- 09 -->
-          <article class="objective-item reveal">
-            <div class="objective-number">09</div>
+          <button
+            class="objective-item reveal"
+            type="button"
+            data-objective="9"
+          >
+            <span class="objective-number">09</span>
 
-            <div class="objective-content">
-              <p>
-                To support community-based education and advocacy programmes
-                aimed at reducing preventable complications and deaths
-                associated with prematurity and improving newborn health
-                outcomes.
-              </p>
-            </div>
-          </article>
+            <span class="objective-preview">
+              <strong>Community Advocacy</strong>
+              <small>Reducing preventable complications and deaths</small>
+            </span>
+
+            <span class="objective-arrow">↗</span>
+          </button>
 
 
           <!-- 10 -->
-          <article class="objective-item reveal">
-            <div class="objective-number">10</div>
+          <button
+            class="objective-item reveal"
+            type="button"
+            data-objective="10"
+          >
+            <span class="objective-number">10</span>
 
-            <div class="objective-content">
-              <p>
-                To collaborate with hospitals, healthcare institutions,
-                professional bodies, government agencies, non-governmental
-                organisations, development partners, academic institutions and
-                other relevant organisations in furtherance of the Foundation’s
-                objectives.
-              </p>
-            </div>
-          </article>
+            <span class="objective-preview">
+              <strong>Strategic Collaboration</strong>
+              <small>Working with organisations and institutions</small>
+            </span>
+
+            <span class="objective-arrow">↗</span>
+          </button>
 
 
           <!-- 11 -->
-          <article class="objective-item reveal">
-            <div class="objective-number">11</div>
+          <button
+            class="objective-item reveal"
+            type="button"
+            data-objective="11"
+          >
+            <span class="objective-number">11</span>
 
-            <div class="objective-content">
-              <p>
-                To support research, data collection, documentation and
-                dissemination of information relating to prematurity and
-                newborn health, particularly in Nigeria and other
-                resource-limited settings, where such activities advance the
-                Foundation’s charitable purposes.
-              </p>
-            </div>
-          </article>
+            <span class="objective-preview">
+              <strong>Research &amp; Documentation</strong>
+              <small>Supporting knowledge about prematurity</small>
+            </span>
+
+            <span class="objective-arrow">↗</span>
+          </button>
 
 
           <!-- 12 -->
-          <article class="objective-item reveal">
-            <div class="objective-number">12</div>
+          <button
+            class="objective-item reveal"
+            type="button"
+            data-objective="12"
+          >
+            <span class="objective-number">12</span>
 
-            <div class="objective-content">
-              <p>
-                To promote the dignity, inclusion, wellbeing and rights of
-                premature infants and their families, and to encourage systems
-                and practices that support their health and development.
-              </p>
-            </div>
-          </article>
+            <span class="objective-preview">
+              <strong>Dignity, Inclusion &amp; Wellbeing</strong>
+              <small>Supporting the rights of infants and families</small>
+            </span>
+
+            <span class="objective-arrow">↗</span>
+          </button>
 
 
           <!-- 13 -->
-          <article class="objective-item reveal">
-            <div class="objective-number">13</div>
+          <button
+            class="objective-item reveal"
+            type="button"
+            data-objective="13"
+          >
+            <span class="objective-number">13</span>
 
-            <div class="objective-content">
-              <p>
-                To mobilise charitable donations, grants, gifts and other
-                lawful resources from individuals, organisations, institutions
-                and development partners for the achievement of the
-                Foundation’s objectives.
-              </p>
-            </div>
-          </article>
+            <span class="objective-preview">
+              <strong>Charitable Resource Mobilisation</strong>
+              <small>Mobilising lawful resources for the Foundation</small>
+            </span>
+
+            <span class="objective-arrow">↗</span>
+          </button>
 
 
           <!-- 14 -->
-          <article class="objective-item reveal">
-            <div class="objective-number">14</div>
+          <button
+            class="objective-item reveal"
+            type="button"
+            data-objective="14"
+          >
+            <span class="objective-number">14</span>
 
-            <div class="objective-content">
-              <p>
-                To establish, support or participate in programmes and
-                initiatives that improve access to appropriate information,
-                resources and support for premature infants and their families,
-                particularly in underserved communities.
-              </p>
-            </div>
-          </article>
+            <span class="objective-preview">
+              <strong>Access to Support &amp; Resources</strong>
+              <small>Improving access for underserved communities</small>
+            </span>
+
+            <span class="objective-arrow">↗</span>
+          </button>
 
 
           <!-- 15 -->
-          <article class="objective-item reveal">
-            <div class="objective-number">15</div>
+          <button
+            class="objective-item reveal"
+            type="button"
+            data-objective="15"
+          >
+            <span class="objective-number">15</span>
 
-            <div class="objective-content">
-              <p>
-                To undertake any other lawful charitable activities that are
-                incidental or conducive to the attainment of the above
-                objectives, provided that such activities are consistent with
-                the non-profit character and objects of the Foundation.
-              </p>
-            </div>
-          </article>
+            <span class="objective-preview">
+              <strong>Other Lawful Charitable Activities</strong>
+              <small>Further activities supporting the Foundation's objects</small>
+            </span>
+
+            <span class="objective-arrow">↗</span>
+          </button>
 
         </div>
 
       </div>
+
     </section>
 
 
     <!-- NEXT STEP -->
     <section class="content-section soft-section">
+
       <div class="container">
 
         <div class="section-heading reveal">
-          <span class="eyebrow">CONTINUE EXPLORING</span>
 
-          <h2>Meet Our Team</h2>
+          <span class="eyebrow">
+            CONTINUE EXPLORING
+          </span>
+
+          <h2>
+            Meet Our Team
+          </h2>
 
           <p>
-            Learn more about the people serving the Damaris Foundation for
-            Premature Infants.
+            Learn more about the people serving the Damaris Foundation
+            for Premature Infants.
           </p>
+
         </div>
+
 
         <div class="card-grid">
 
           <a href="team.html" class="info-card reveal">
+
             <span class="card-number">01</span>
 
             <h3>Our Team</h3>
@@ -345,9 +408,12 @@
             <p>
               Meet the Foundation's team and leadership.
             </p>
+
           </a>
 
+
           <a href="support.html" class="info-card reveal">
+
             <span class="card-number">02</span>
 
             <h3>Support Us</h3>
@@ -355,9 +421,12 @@
             <p>
               Learn about supporting the Foundation's work.
             </p>
+
           </a>
 
+
           <a href="contact.html" class="info-card reveal">
+
             <span class="card-number">03</span>
 
             <h3>Contact Us</h3>
@@ -365,43 +434,359 @@
             <p>
               Get in touch with the Damaris Foundation.
             </p>
+
           </a>
 
         </div>
 
       </div>
+
     </section>
 
   </main>
 
 
+  <!-- OBJECTIVE DETAIL MODAL -->
+  <div
+    class="objective-modal"
+    id="objectiveModal"
+    aria-hidden="true"
+  >
+
+    <div class="objective-modal-backdrop"></div>
+
+    <div
+      class="objective-modal-panel"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="objectiveModalTitle"
+    >
+
+      <button
+        class="objective-modal-close"
+        id="objectiveModalClose"
+        type="button"
+        aria-label="Close objective"
+      >
+        ×
+      </button>
+
+      <div class="objective-modal-number" id="objectiveModalNumber">
+        01
+      </div>
+
+      <span class="eyebrow">
+        FOUNDATION OBJECTIVE
+      </span>
+
+      <h2 id="objectiveModalTitle">
+        Awareness of Prematurity
+      </h2>
+
+      <div
+        class="objective-modal-text"
+        id="objectiveModalText"
+      ></div>
+
+      <div class="objective-modal-footer">
+
+        <button
+          type="button"
+          class="objective-nav-btn"
+          id="objectivePrev"
+        >
+          ← Previous
+        </button>
+
+        <span id="objectiveCounter">
+          01 / 15
+        </span>
+
+        <button
+          type="button"
+          class="objective-nav-btn"
+          id="objectiveNext"
+        >
+          Next →
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
   <!-- FOOTER -->
   <footer class="site-footer">
+
     <div class="container footer-inner">
 
       <div>
-        <h3>Damaris Foundation for Premature Infants</h3>
-        <p>Small beginnings, strong futures.</p>
+
+        <h3>
+          Damaris Foundation for Premature Infants
+        </h3>
+
+        <p>
+          Small beginnings, strong futures.
+        </p>
+
       </div>
+
 
       <div class="footer-links">
+
         <a href="about.html">About</a>
-        <a href="mission.html">Mission & Vision</a>
-        <a href="objectives.html">Objectives</a>
-        <a href="team.html">Team</a>
-        <a href="support.html">Support</a>
-        <a href="contact.html">Contact</a>
+
+        <a href="mission.html">
+          Mission &amp; Vision
+        </a>
+
+        <a href="objectives.html">
+          Objectives
+        </a>
+
+        <a href="team.html">
+          Team
+        </a>
+
+        <a href="support.html">
+          Support
+        </a>
+
+        <a href="contact.html">
+          Contact
+        </a>
+
       </div>
 
+
       <p class="copyright">
-        © <span id="year"></span> Damaris Foundation for Premature Infants.
+
+        © <span id="year"></span>
+        Damaris Foundation for Premature Infants.
+
       </p>
 
     </div>
+
   </footer>
 
 
   <script src="script.js"></script>
 
+  <!-- OBJECTIVES INTERACTION -->
+  <script>
+
+    document.addEventListener('DOMContentLoaded', function () {
+
+      const objectives = [
+
+        {
+          title: 'Awareness of Prematurity',
+          text: `To promote awareness and understanding of prematurity and its associated challenges, particularly among parents, caregivers, healthcare workers and the general public in Nigeria and other resource-limited settings.`
+        },
+
+        {
+          title: 'Improved Infant Outcomes',
+          text: `To advocate for improved survival, quality of care and long-term outcomes of premature and vulnerable newborns, especially those in underserved and resource-constrained communities.`
+        },
+
+        {
+          title: 'Supporting Healthcare Facilities',
+          text: `To support healthcare facilities caring for premature and vulnerable infants through the donation of appropriate non-cash medical supplies, newborn-care materials, equipment and other relevant resources, subject to applicable laws and regulations.`
+        },
+
+        {
+          title: 'Healthcare Worker Education',
+          text: `To organise and facilitate short courses, workshops, seminars and other educational programmes for healthcare workers on the recognition, management, monitoring and prevention of complications associated with prematurity and newborn illness.`
+        },
+
+        {
+          title: 'Parent & Family Guidance',
+          text: `To provide educational support and practical guidance to parents, families and caregivers of premature infants, including information on newborn care, nutrition, follow-up, developmental needs and recognition of danger signs.`
+        },
+
+        {
+          title: 'Family Support Packages',
+          text: `To provide care and support packages and other appropriate non-cash assistance to families of premature infants, particularly families experiencing financial or social hardship, in accordance with the Foundation’s charitable purposes.`
+        },
+
+        {
+          title: 'Long-Term Prematurity Awareness',
+          text: `To create public awareness of the short- and long-term complications associated with prematurity, including developmental, nutritional, neurological, respiratory, visual, hearing and other potential complications, and to promote appropriate follow-up and early intervention.`
+        },
+
+        {
+          title: 'Early Identification & Referral',
+          text: `To promote early identification, referral and appropriate management of premature and high-risk newborns by strengthening awareness and linkages between families, communities and relevant healthcare services.`
+        },
+
+        {
+          title: 'Community Advocacy',
+          text: `To support community-based education and advocacy programmes aimed at reducing preventable complications and deaths associated with prematurity and improving newborn health outcomes.`
+        },
+
+        {
+          title: 'Strategic Collaboration',
+          text: `To collaborate with hospitals, healthcare institutions, professional bodies, government agencies, non-governmental organisations, development partners, academic institutions and other relevant organisations in furtherance of the Foundation’s objectives.`
+        },
+
+        {
+          title: 'Research & Documentation',
+          text: `To support research, data collection, documentation and dissemination of information relating to prematurity and newborn health, particularly in Nigeria and other resource-limited settings, where such activities advance the Foundation’s charitable purposes.`
+        },
+
+        {
+          title: 'Dignity, Inclusion & Wellbeing',
+          text: `To promote the dignity, inclusion, wellbeing and rights of premature infants and their families, and to encourage systems and practices that support their health and development.`
+        },
+
+        {
+          title: 'Charitable Resource Mobilisation',
+          text: `To mobilise charitable donations, grants, gifts and other lawful resources from individuals, organisations, institutions and development partners for the achievement of the Foundation’s objectives.`
+        },
+
+        {
+          title: 'Access to Support & Resources',
+          text: `To establish, support or participate in programmes and initiatives that improve access to appropriate information, resources and support for premature infants and their families, particularly in underserved communities.`
+        },
+
+        {
+          title: 'Other Lawful Charitable Activities',
+          text: `To undertake any other lawful charitable activities that are incidental or conducive to the attainment of the above objectives, provided that such activities are consistent with the non-profit character and objects of the Foundation.`
+        }
+
+      ];
+
+
+      const modal = document.getElementById('objectiveModal');
+      const modalNumber = document.getElementById('objectiveModalNumber');
+      const modalTitle = document.getElementById('objectiveModalTitle');
+      const modalText = document.getElementById('objectiveModalText');
+      const counter = document.getElementById('objectiveCounter');
+
+      const closeBtn = document.getElementById('objectiveModalClose');
+      const prevBtn = document.getElementById('objectivePrev');
+      const nextBtn = document.getElementById('objectiveNext');
+
+      const cards = document.querySelectorAll('.objective-item');
+
+      let currentObjective = 0;
+
+
+      function showObjective(index) {
+
+        currentObjective = index;
+
+        const objective = objectives[index];
+
+        const number = String(index + 1).padStart(2, '0');
+
+        modalNumber.textContent = number;
+
+        modalTitle.textContent = objective.title;
+
+        modalText.textContent = objective.text;
+
+        counter.textContent =
+          number + ' / ' + String(objectives.length).padStart(2, '0');
+
+        prevBtn.disabled = index === 0;
+
+        nextBtn.disabled = index === objectives.length - 1;
+
+        modal.classList.add('open');
+
+        modal.setAttribute('aria-hidden', 'false');
+
+        document.body.classList.add('objective-modal-open');
+
+      }
+
+
+      function closeObjective() {
+
+        modal.classList.remove('open');
+
+        modal.setAttribute('aria-hidden', 'true');
+
+        document.body.classList.remove('objective-modal-open');
+
+      }
+
+
+      cards.forEach(function (card, index) {
+
+        card.addEventListener('click', function () {
+
+          showObjective(index);
+
+        });
+
+      });
+
+
+      closeBtn.addEventListener('click', closeObjective);
+
+
+      prevBtn.addEventListener('click', function () {
+
+        if (currentObjective > 0) {
+
+          showObjective(currentObjective - 1);
+
+        }
+
+      });
+
+
+      nextBtn.addEventListener('click', function () {
+
+        if (currentObjective < objectives.length - 1) {
+
+          showObjective(currentObjective + 1);
+
+        }
+
+      });
+
+
+      modal.querySelector('.objective-modal-backdrop')
+        .addEventListener('click', closeObjective);
+
+
+      document.addEventListener('keydown', function (event) {
+
+        if (!modal.classList.contains('open')) return;
+
+        if (event.key === 'Escape') {
+
+          closeObjective();
+
+        }
+
+        if (event.key === 'ArrowLeft' && currentObjective > 0) {
+
+          showObjective(currentObjective - 1);
+
+        }
+
+        if (
+          event.key === 'ArrowRight' &&
+          currentObjective < objectives.length - 1
+        ) {
+
+          showObjective(currentObjective + 1);
+
+        }
+
+      });
+
+    });
+
+  </script>
+
 </body>
-</html>
+  </html>
