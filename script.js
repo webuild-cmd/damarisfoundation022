@@ -383,27 +383,24 @@ if (year) {
    WELCOME SCREEN
 ========================= */
 
-const welcomeScreen =
-  document.getElementById('welcomeScreen');
+document.addEventListener('DOMContentLoaded', function () {
 
-const welcomeEnter =
-  document.getElementById('welcomeEnter');
+  const welcomeScreen = document.getElementById('welcomeScreen');
+  const welcomeEnter = document.getElementById('welcomeEnter');
 
-if (welcomeScreen && welcomeEnter) {
+  if (!welcomeScreen || !welcomeEnter) {
+    return;
+  }
 
-  welcomeEnter.addEventListener('click', () => {
+  welcomeEnter.addEventListener('click', function () {
 
     welcomeScreen.classList.add('hide');
 
-    setTimeout(() => {
-
-      if (welcomeScreen) {
-        welcomeScreen.remove();
-      }
-
+    setTimeout(function () {
+      welcomeScreen.remove();
     }, 900);
 
   });
 
-}
+});
 
