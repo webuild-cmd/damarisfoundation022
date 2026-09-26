@@ -243,6 +243,7 @@ document.body.classList.toggle('menu-open', open);
       nav.classList.remove('open');
       toggle.classList.remove('open');
       toggle.setAttribute('aria-expanded', 'false');
+       document.body.classList.remove('menu-open');
 
     });
 
