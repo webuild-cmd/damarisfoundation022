@@ -231,7 +231,8 @@ if (toggle && nav) {
     const open = nav.classList.toggle('open');
 
     toggle.classList.toggle('open', open);
-    toggle.setAttribute('aria-expanded', open);
+toggle.setAttribute('aria-expanded', open);
+document.body.classList.toggle('menu-open', open);
 
   });
 
